@@ -51,17 +51,7 @@
 			"changeable": 1,
 			"ext": "./lib/douban.json"
 		},
-    {
-      "key": "csp_KungFu404",
-      "name":"🎦阿里设置",
-      "type": 3, 
-      "api": "csp_KungFu404", 
-      "searchable":0,
-      "filterable": 0, 
-      "changeable":0,
-      "jar":"./lib/alibaba.jar",
-      "ext":"http://127.0.0.1:9978/file/lxhfans/token.txt+4k|fhd|auto"
-    },
+    {"key":"Local","name":"✡️本地媒体","type":3,"api":"csp_Local"},
     {
       "key": "配置中心",
       "name": "🏬配置中心",
@@ -206,7 +196,7 @@
       },
       "api": "csp_Wobg",
       "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd$$$http://wobge.run.goorm.io"
-    },
+    }, 
     {
       "key":"影视车",
       "name":"阿狸┃YS",
@@ -319,6 +309,18 @@
     },
     {"key":"Ppxzy","name":"夸克┃PP","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://ppxzy.net/$$$null$$$1"},
 		{"key":"Libvio","name":"夸克┃LB","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.libvio.pro$$$null"},
+      {
+      "key": "AliShare",
+      "name": "自营┃FX",
+      "type": 3,
+      "api": "csp_AliShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "./lib/tokenm.json$$$./lib/alishare.txt"
+    },
     {"key":"YydsVip","name":"自营┃YY","type":3,"api":"csp_YydsVip", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"./lib/tokenm.json$$$http://yydsvip.cn$$$null$$$1"},
     {"key":"开心HK影视","name":"自营┃TT","type":3,"api":"csp_XBPQ","jar":"./ttkx.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/开心HK影视.json"},
     {"key":"开心影视","name":"自营┃KX","type":3,"api":"csp_XBPQ","jar":"./ttkx.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/开心影视.json"},
@@ -330,6 +332,33 @@
             "searchable": 1,
             "changeable": 0
         },
+         {
+      "key": "巧技一",
+      "name": "自营┃QJ",
+      "type": 3,
+      "api": "csp_qiao2",
+      "jar": "./jar/fix24117.jar",
+      "playerType": 2,
+      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji1"
+    },
+    {
+      "key": "巧技二",
+      "name": "自营┃JQ",
+      "type": 3,
+      "api": "csp_qiao2",
+      "jar": "./jar/fix24117.jar",
+      "playerType": 2,
+      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"
+    },
+       {
+      "key": "巧技三",
+      "name": "自营┃JJ",
+      "type": 3,
+      "api": "csp_qiao2",
+      "jar": "./jar/fix24117.jar",
+      "playerType": 2,
+      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"
+    },
  
     {
       "key": "4KHDR网盘",
@@ -371,28 +400,27 @@
      {"key":"drpy_js_腾云驾雾","name":"腾腾┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./JS/腾云驾雾.js"},
      {"key":"drpy_js_百忙无果","name":"芒芒┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./JS/百忙无果.js"}, 
      {"key":"drpy_js_360影视","name":"360┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./JS/360影视.js"},
-    
-   
+     
+       
      
     
-   
   
 #云盘搜索
 
   
     {"key":"Panta","name":"盘TA┃🍭","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"},
 		{"key":"DaPanSo","name":"大盘┃🍭","type":3,"api":"csp_DaPanSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://dapanso.com$$$null"},
-		{
+    {
       "key": "阿里云集合",
       "name": "合集┃🍭",
       "type": 3,
       "api": "csp_阿里云集合",
-      "jar": "./真心1215.jar",
+      "jar": "./jar/阿里合集.jar",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
-      "ext": "./token"
-    },
+      "ext":"./lib/tokenm.json"
+    },     
     {"key":"易搜","name":"易搜┃🍭","type":3,"api":"csp_YiSo","timeout":30, "ext":"./lib/tokenm.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"},
 		{"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json"},
     {"key":"盘搜","name":"盘搜┃🍭","type":3,"api":"csp_PanSou","timeout":30, "ext":"./lib/tokenm.json"},
@@ -429,8 +457,7 @@
       "ext": "",
       "timeout": 60
     },
-
-
+    
     {
       "key": "cc1",
       "name": "🍀🍁关注公众号",
@@ -467,6 +494,8 @@
       "quickSearch": 0,
       "filterable": 0
     }
+
+  
 ],
 "parses":[
         {"name": "关注","type": 3,"url": "Web"},
